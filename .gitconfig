@@ -1,0 +1,7 @@
+[user]
+	name = Fernando Resendiz
+	email = 38899746+fernando801@users.noreply.github.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
