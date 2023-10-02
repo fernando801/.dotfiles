@@ -1,6 +1,10 @@
 [user]
 	name = Fernando Resendiz
 	email = 38899746+fernando801@users.noreply.github.com
+
+[includeIf "gitdir:~/Documents/Oracle/"]
+    path = .gitconfig-work
+
 [core]
 	editor = nvim
 [init]
