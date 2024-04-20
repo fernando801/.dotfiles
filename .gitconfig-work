@@ -1,0 +1,4 @@
+[user]
+    email = fernando.resendiz@oracle.com
+[pull]
+    ff = true
