@@ -2,7 +2,7 @@
 	name = Fernando Resendiz
 	email = 38899746+fernando801@users.noreply.github.com
 
-[includeIf "gitdir:~/Documents/Oracle/"]
+[includeIf "gitdir:~/Projects/Oracle/"]
     path = .gitconfig-work
 
 [init]
@@ -28,3 +28,13 @@
 
 [diff]
     colorMoved = default
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[rerere]
+	enabled = true
+[http]
+	postBuffer = 524288000
+	maxRequestBuffer = 1048576000
