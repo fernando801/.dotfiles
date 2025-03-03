@@ -169,9 +169,6 @@ _fzf_comprun() {
 
 alias setup_dbtools_devenv="python3 /Users/resen/Projects/Oracle/DBTOOLS/scripts/devenv.py"
 
-#sqlcl
-export PATH=$HOMEBREW_PREFIX/Caskroom/sqlcl/24.3.2.330.1718/sqlcl/bin:"$PATH"
-
 #maven
 export M2_HOME="/Users/resen/Projects/Oracle/DBTOOLS/apache-maven-3.9.9"
 export PATH="${M2_HOME}/bin:${PATH}"
