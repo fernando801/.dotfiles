@@ -1,0 +1,21 @@
+# Theme and colors
+theme = catppuccin-mocha.conf
+
+# Font settings
+font-family = "Fira Code Retina"
+font-size = 14
+font-thicken = true
+# adjust-cell-height = 2
+
+# Cursor settings
+cursor-style = block
+shell-integration-features = no-cursor
+
+# Window settings
+fullscreen = true
+background-opacity = 0.9
+background-blur = true
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+window-save-state = always
