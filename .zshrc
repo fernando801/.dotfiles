@@ -1,4 +1,3 @@
-neofetch
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -128,7 +127,6 @@ export BAT_THEME="Catppuccin Mocha"
 eval "$(fzf --zsh)"
 
 # -- use fd instead of find for fzf --
-
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
@@ -166,12 +164,6 @@ _fzf_comprun() {
     *)            fzf --preview "bat -n --color=always --line-range :500 {}" "$@" ;;
   esac
 }
-
-alias setup_dbtools_devenv="python3 /Users/resen/Projects/Oracle/DBTOOLS/scripts/devenv.py"
-
-#maven
-export M2_HOME="/Users/resen/Projects/Oracle/DBTOOLS/apache-maven-3.9.9"
-export PATH="${M2_HOME}/bin:${PATH}"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
