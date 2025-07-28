@@ -184,3 +184,7 @@ fi
 if [[ -f "$HOME/.keys.zsh" ]]; then
   source "$HOME/.keys.zsh"
 fi
+
+# Set variable for claude desktop config file for easiser access
+export CLAUDE_DESKTOP_CONFIG=$HOME/Library/Application\ Support/Claude/claude_desktop_config.json
+

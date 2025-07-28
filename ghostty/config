@@ -25,20 +25,20 @@ window-save-state = always
 # Key bindings
 
 # # Tabs
-# keybind = ctrl+a>c=new_tab
-# keybind = ctrl+a>p=previous_tab
-# keybind = ctrl+a>n=next_tab
-#
-# # Create splits
-# keybind = ctrl+a>t=new_split:right
-# keybind = ctrl+a>v=new_split:down
-#
-# # Navigate splits
-# keybind = performable:ctrl+h=goto_split:left
-# keybind = performable:ctrl+j=goto_split:down
-# keybind = performable:ctrl+k=goto_split:up
-# keybind = performable:ctrl+l=goto_split:right
-#
-# # Toggle zoom in current split
-# keybind = ctrl+a>m=toggle_split_zoom
+keybind = ctrl+a>c=new_tab
+keybind = ctrl+a>p=previous_tab
+keybind = ctrl+a>n=next_tab
+
+# Create splits
+keybind = ctrl+a>t=new_split:right
+keybind = ctrl+a>v=new_split:down
+
+# Navigate splits
+keybind = performable:ctrl+h=goto_split:left
+keybind = performable:ctrl+j=goto_split:down
+keybind = performable:ctrl+k=goto_split:up
+keybind = performable:ctrl+l=goto_split:right
+
+# Toggle zoom in current split
+keybind = ctrl+a>m=toggle_split_zoom
 keybind = shift+enter=text:\n
