@@ -115,6 +115,11 @@ alias la="eza --icons=always -lha"
 # git alias
 alias gs="git status"
 
+# git patches directory
+# have a designated directory to store git patches
+export GIT_PATCHES_DIR=$HOME/.gitpatches
+mkdir -p $GIT_PATCHES_DIR
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
