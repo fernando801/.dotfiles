@@ -19,16 +19,18 @@ $character"""
 
 right_format = """\
 [](lavender)\
+$bun\
 $c\
-$lua\
-$rust\
+$deno\
 $golang\
-$nodejs\
-$php\
+$haskell\
 $java\
 $kotlin\
-$haskell\
+$lua\
+$nodejs\
+$php\
 $python\
+$rust\
 [](fg:pink bg:lavender)\
 $time\
 [](fg:yellow bg:pink)\
@@ -99,6 +101,7 @@ format = '[$user ]($style)'
 [directory]
 style = "bold bg:blue fg:#ffffff"
 format = "[ $path ]($style)"
+read_only = " 󰌾"
 truncate_to_repo = true
 truncation_length = 3
 truncation_symbol = ""
@@ -126,43 +129,95 @@ use_git_executable = true
 style = "bg:yellow"
 format = '[[( $ahead_behind$all_status)](fg:crust bg:yellow)]($style)'
 
-[nodejs]
-symbol = " "
-style = "bg:lavender"
-format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[bun]
+symbol = " "
 
 [c]
 symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
 
-[rust]
-symbol = " "
+[cpp]
+symbol = " "
+
+[cmake]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[deno]
+symbol = "🦕"
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
+
+[docker_context]
+symbol = " "
+style = "bg:sapphire"
+format = '[[ $symbol($context) ](fg:crust bg:sapphire)]($style)'
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[gcloud]
+symbol = "  "
+
+[git_commit]
+tag_symbol = '  '
 
 [golang]
 symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
 
-[php]
-symbol = " "
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
+
+[haxe]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
 
 [java]
 symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
 
+[julia]
+symbol = " "
+
 [kotlin]
 symbol = " "
-style = "bg:lavender"
-format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
-
-[haskell]
-symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
 
@@ -171,15 +226,71 @@ symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
 
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+symbol = "󰔷 "
+
+[nim]
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+detect_extensions = []
+style = "bg:lavender"
+format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
+
+[ocaml]
+symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+style = "bg:lavender"
+format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
+
+[pijul_channel]
+symbol = " "
+
+[pixi]
+symbol = "󰏗 "
+
 [python]
 symbol = " "
 style = "bg:lavender"
 format = '[[ $symbol($version) ($virtualenv) ](fg:crust bg:lavender)]($style)'
 
-[docker_context]
-symbol = " "
-style = "bg:sapphire"
-format = '[[ $symbol($context) ](fg:crust bg:sapphire)]($style)'
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "󱘗 "
+style = "bg:lavender"
+format = '[[ $symbol($version) ](fg:crust bg:lavender)]($style)'
+
+[scala]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[zig]
+symbol = " "
+
+[gradle]
+symbol = " "
 
 [time]
 disabled = false
